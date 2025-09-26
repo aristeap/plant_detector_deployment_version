@@ -1,14 +1,15 @@
 # Plant Detector App
 
 ## Contents
-🌸 [Introduction](#introduction)
-🌸 [Quick Start](#quick-start)
-🌸 [Features - User Guide](#features---user-guide)
-🌸 [Project Structure](#project-structure)
-🌸 [Database Schema](#database-schema)
-🌸 [Deployment & Live Demo](#deployment--live-demo)
-🌸 [Next Steps](#next-steps)
-🌸 [Contact](#contact)
+- 🌸 [Introduction](#introduction)
+    - 🌸 [Key Features](#-key-features)
+- 🌸 [Quick Start](#quick-start)
+- 🌸 [Features - User Guide](#features---user-guide)
+- 🌸 [Project Structure](#project-structure)
+- 🌸 [Database Schema](#database-schema)
+- 🌸 [Deployment & Live Demo](#deployment--live-demo)
+- 🌸 [Next Steps](#next-steps)
+- 🌸 [Contact](#contact)
 
 
 ## Introduction
@@ -39,6 +40,10 @@ To use the application visit [plant-detector](https://plant-detector-project.net
 ## Project Structure
 
 ## Database Schema
+I have integrated a relational mysql database. It contains the tables: user,user_comments, user_queries, plants, plants_extra_images, articles
+
+🌸 **ER** diagram:
+![The er of the database](screens_and_gifs/ER-diagram.png)
 
 ## Deployment & Live Demo
 Secure & Scalable Architecture: The frontend is hosted on Netlify, while the PHP backend is deployed as a containerized service on Render, ensuring a reliable and scalable architecture.
