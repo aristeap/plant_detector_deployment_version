@@ -4,10 +4,10 @@
 - 🌸 [Introduction](#introduction)
     - 🌸 [Key Features](#-key-features)
 - 🌸 [Quick Start](#quick-start)
+- 🌸 [Project Structure](#project-structure)
 - 🌸 [Features - User Guide](#features---user-guide)
     - 🌸 [Main interface](#-main-interface)
     - 🌸 [Uploading a plant's image](#-uploading-a-plants-image)
-- 🌸 [Project Structure](#project-structure)
 - 🌸 [Database Schema](#database-schema)
 - 🌸 [Deployment & Live Demo](#deployment--live-demo)
 - 🌸 [Free use limitations](#free-use-limitationss)
@@ -35,6 +35,13 @@ The Plant Detector is a full-stack web application designed to accurately identi
 ## Quick Start
 To use the application visit [plant-detector](https://plant-detector-project.netlify.app/)
 
+## Project Structure
+The project is split into two diffeent repositories.
+🌸[plant-detector-frontend](https://github.com/aristeap/plant-detector-frontend)
+* is the front-end repository
+
+🌸[plant-detector-backend](https://github.com/aristeap/plant-detector-backend)
+* is the back-end repository
 
 ## Features - User Guide
 
@@ -47,8 +54,6 @@ To use the application visit [plant-detector](https://plant-detector-project.net
 
 ![uploading-an-image](screens_and_gifs/upload.gif)
 
-
-## Project Structure
 
 ## Database Schema
 I have integrated a relational mysql database. It contains the tables: user,user_comments, user_queries, plants, plants_extra_images, articles
