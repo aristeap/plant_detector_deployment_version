@@ -5,15 +5,18 @@
     - 🌸 [Key Features](#-key-features)
 - 🌸 [Quick Start](#quick-start)
 - 🌸 [Features - User Guide](#features---user-guide)
+    - 🌸 [Main interface](#-main-interface)
+    - 🌸 [Uploading a plant's image](#-uploading-a-plants-image)
 - 🌸 [Project Structure](#project-structure)
 - 🌸 [Database Schema](#database-schema)
 - 🌸 [Deployment & Live Demo](#deployment--live-demo)
+- 🌸 [Free use limitations](#free-use-limitationss)
 - 🌸 [Next Steps](#next-steps)
 - 🌸 [Contact](#contact)
 
 
 ## Introduction
-The Plant Detector is a full-stack web application designed to accurately identify plants from user-uploaded images. This project showcases a modern, responsive web interface built with React on the frontend and a robust API-driven backend powered by PHP. 
+The Plant Detector is a full-stack web application designed to accurately identify plants from user-uploaded images. This project showcases a modern, responsive web interface built with **React** on the frontend and a robust **API-driven** backend powered by **PHP**. 
 
 ### 🌸 Key Features
 * **Image-Based Plant Identification**: Users can upload a photo of a plant to receive a detailed identification, including its common and scientific names, along with crucial care information (watering, sunlight, pruning).
@@ -35,6 +38,14 @@ To use the application visit [plant-detector](https://plant-detector-project.net
 
 ## Features - User Guide
 
+### 🌸 Main Interface
+
+![The main interface](screens_and_gifs/main-interface.png)
+
+### 🌸 Uploading a plant's image
+* The user can click the upload icon of the main interface in order to upload a plant, or flowers image, for the application to identify it.
+
+![uploading-an-image](screens_and_gifs/upload.gif)
 
 
 ## Project Structure
@@ -49,6 +60,9 @@ I have integrated a relational mysql database. It contains the tables: user,user
 Secure & Scalable Architecture: The frontend is hosted on Netlify, while the PHP backend is deployed as a containerized service on Render, ensuring a reliable and scalable architecture.
 
 Efficient Deployment Pipeline: The project utilizes a CI/CD pipeline with GitHub for version control, allowing for automated builds and deployments on both platforms.
+
+## Free use limitations
+
 ## Next Steps
 
 ## Contact
